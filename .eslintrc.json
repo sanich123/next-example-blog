@@ -1,10 +1,10 @@
 {
-  "extends": ["next/babel"],
+  "extends": ["next/babel","next/core-web-vitals"],
     "rules": {
       "no-console":"warn",
       "prefer-const": "error",
       "quotes": ["error", "single"],
-      "jsx-quotes": ["error", "prever-double"],
+      "jsx-quotes": ["error", "prefer-double"],
       "indent": ["warn", 2],
       "comma-dangle": ["error", "always-multiline"],
       "semi": ["error", "always"],
